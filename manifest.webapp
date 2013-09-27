@@ -1,0 +1,17 @@
+{
+  "name": "SMS Backup/Restore",
+  "description": "Backup/Restore SMS to the SD card",
+  "type": "certified",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "RAYAR Frédéric",
+    "url": "http://frederic.rayar.free.fr/"
+  },
+  "permissions": {
+    "contacts":{ "access": "readwrite" },
+    "settings":{ "access": "readonly" },
+    "sms": {},
+    "storage": {},
+    "device-storage:sdcard": { "access": "readcreate" }
+  }
+}

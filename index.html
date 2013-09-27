@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	
+	<script defer type="text/javascript" src="js/backuper.js"/></script>
+	
+	<!-- https://developer.mozilla.org/en-US/docs/Web/API/MozSmsManager?redirectlocale=en-US&redirectslug=Web%2FAPI%2FSmsManager --> 
+	
+    <title> SMS Backup/Restore </title>
+  </head>
+
+  <body role="application" class="app-contacts">
+
+	<header>
+		<h2 data-l10n-id="importContactsTitle">Backup SMS</h2>
+	</header>
+	
+	  <!-- Export/Load buttons -->
+	  <div id="backuprestore" data-source="sd">
+	  	<!-- Export messages to SD Button -->
+		<button id="backupSMS" class="icon icon-sd" data-l10n-id="backupSMS">
+		  Backup SMS
+		  <p><span></span><time></time></p>
+		</button>
+		<!-- Import messages from SD Button -->
+		<button id="restoreSMS" class="icon icon-sd" data-l10n-id="restoreSMS">
+		  Restore SMS
+		  <p><span></span><time></time></p>
+		</button>
+	  </div>
+  
+  </body>
+</html>  
